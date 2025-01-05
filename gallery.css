@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+.header {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.header audio {
+    margin: 10px 0;
+}
+
+.header .btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header .btn:hover {
+    background-color: #777;
+}
+
+.header .btn.active {
+    background-color: #ff6600;
+    color: white;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center; 
+    width: 90%;
+    max-width: 1200px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 25%;
+    align-items: center; 
+}
+
+.column img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.column img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 768px) {
+    .column {
+        flex: 1 1 50%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .column {
+        flex: 1 1 100%; 
+     }
+        }

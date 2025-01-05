@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <link href="https://fonts.googleapis.com/css2? family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <style>  
+        
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG95YndzenQxNGJiMjU5M3VtOG93ajVvMnB2dWZ4dW0wdGtkam42bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yg2wqTVUpqavXo4mEg/giphy.webp);
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            height: 100vh; 
+            color: #FFFFFF;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow-x: hidden;
+        }
+
+        
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); 
+            z-index: -1;
+        }
+
+        
+        header {
+            margin-bottom: 30px;
+            padding: 50px;
+        }
+
+        
+        .intro-text {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .intro-title {
+            font-size: 3.5rem;
+            color: #E60000; 
+        }
+
+        
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 20px;
+            margin-top: 40px;
+            padding: 0 20px;
+        }
+
+        
+        .button-container a {
+            display: inline-block;
+            background-color: #111111; 
+            color: #E60000; 
+            text-decoration: none;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s ease; 
+            transform: scale(1); 
+        }
+
+        
+        .button-container a:hover {
+            background-color: #E60000; 
+            color: #FFFFFF; 
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+            transform: scale(1.1); 
+        }
+
+       
+        .button-container a:active {
+            transform: scale(1); 
+        }
+
+       
+        footer {
+            background-color: #111111; 
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: #E60000; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+       
+        @media (max-width: 768px) {
+            .intro-text {
+                font-size: 1.5rem;
+            }
+
+            .button-container a {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+
+            .intro-title {
+                font-size: 2.8rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="intro-text intro-title">Welcome to My Website</div>
+        <div class="intro-text">I am Muhammad Iqbal Mueez Bin Musa from class N5CDIM1105A , my student id is 2022625086. I am a passionate sem 5 coding student.</div>
+        <div class="intro-text">Explore my website and get to know me better.</div>
+    </header>
+    <div class="button-container">
+        <a href="biodata.html">Biodata</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="websites.html">Websites</a> 
+    </div>
+    <footer>
+        <p>&copy; 2024 Iqbal. All Rights Reserved. | <a href="contact.html">Contact Me</a></p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+ 

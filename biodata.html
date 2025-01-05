@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-image: url('images/ufc background.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #FF4500;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        hr {
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid white;
+        }
+
+        p {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            height: 300px;
+            border: 4px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+            filter: brightness(1.2);
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #FFF;
+            font-size: 1rem;
+            border-top: 1px solid #FFF;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+
+            .image-container img {
+                height: 200px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>ABOUT ME</h1>
+    <hr>
+
+    <div class="image-container">
+        <img src="images/iqbal 1.jpg" alt="Picture 1">
+        <img src="images/iqbal 2.jpg" alt="Picture 2">
+        <img src="images/iqbal 3.jpg" alt="Picture 3">
+        <img src="images/iqbal 4.jpg" alt="Picture 4">
+    </div>
+
+    <p>Hello! My name is <strong>Muhammad Iqbal Mueez Bin Musa</strong>. I am a 21-year-old from <strong>Puncak Alam, Selangor</strong>, and I am passionate about combat sports and fitness. </p>
+
+    <div class="image-container">
+        <img src="images/masjid puncak alam.avif" alt="Masjid Puncak Alam">
+        <img src="images/uitm puncak alam.jpeg" alt="UiTM Puncak Alam">
+    </div>
+
+    <p>I completed my education at <strong>SMK Puncak Alam Fasa 1</strong> and furthered my studies at <strong>UiTM Kampus Rembau</strong>. My journey has been one of growth, learning, and discovery, leading me closer to achieving my dreams.</p>
+
+    <div class="image-container">
+        <img src="images/iqbal 5.jpg" alt="High School Memories">
+        <img src="images/iqbal 6.jpg" alt="University Friends">
+    </div>
+
+    <p>I aspire to become a <strong>combat sports athlete</strong>, combining my passion for discipline, fitness, and sportsmanship. Life is an adventure, and I’m dedicated to making every moment count.</p>
+
+    <footer>
+        © 2025 Muhammad Iqbal Mueez. All rights reserved.
+    </footer>
+</body>
+</html>
+
